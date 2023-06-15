@@ -1,0 +1,12 @@
+import random
+
+losowa_liczba = input("Enter a random number between 1 and 10: ")
+a = 1
+b = 10
+losowa_liczba_calkowita = random.randint(a, b)
+
+if int(losowa_liczba) == losowa_liczba_calkowita:
+    print("You die")
+else:
+    print("you survived")
+print("The number drawn is",losowa_liczba_calkowita)
